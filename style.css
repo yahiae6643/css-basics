@@ -13,3 +13,73 @@
 
 /*Write your CSS rules below!*/
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h1,
+h2 {
+    font-family: "Oswald", "Helvetica Neue";
+    text-align: center;
+    color: #2884C3;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: "Crimson Text", "Arial";
+    line-height: 1.5;
+}
+
+code {
+    color: #CE235C;
+    background-color: lightgray;
+}
+
+.snippet {
+    background: lightgray;
+}
+
+#font-practice {
+    font-size: 15.8px;
+    font-family: Arial;
+    font-style: italic;
+    color: darkgreen;
+}
+
+a:link {
+    color: darkgreen;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+@font-face{
+    font-family:AcylicalHand-Thick;
+    src:url("AcylicalHand-Thick.ttf"),
+    url("AcylicalHand-Thick.eot")
+}
+
+.test strong:hover {
+    color:red;
+    font-family:AcylicalHand-Thick;
+}
+
+.test a{
+    color:purple;
+}
